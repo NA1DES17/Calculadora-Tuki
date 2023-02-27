@@ -1,0 +1,57 @@
+.container-fluid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: darkblue;
+}
+.container {
+  /* border: solid 3px red; */
+  box-shadow: 3px 3px 20px gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 320px;
+  height: 390px;
+  border-radius: 15px;
+  background-color: darkcyan;
+}
+.col-12 {
+  height: 50px;
+}
+#mostrador {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 0.5px groove;
+  width: 300px;
+  margin-bottom: 30px;
+  background-color: aliceblue;
+  border-radius: 5px;
+  font-size: x-large;
+}
+#suma,
+#resta,
+#multiplicacion,
+#division,
+#igual {
+  background-color: orange;
+  border: 0.5px groove orange;
+}
+
+.col-3 {
+  padding: 0;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  margin: 5px;
+  background-color: aliceblue;
+  color: black;
+  border: groove 0.3px aliceblue;
+}
+.col-3:hover {
+  background-color: black;
+  color: aliceblue;
+}
